@@ -16,6 +16,16 @@ describe ('factorisation program', () => {
       expect(result).to.be.empty
     })
 
+    it ('should return [2] if passed 2', () => {
+      var result = primefactors.for_number(2)
+      expect(result).to.deep.equal([2])
+    })
+
+    it ('should return [3] if passed 3', () => {
+      var result = primefactors.for_number(3)
+      expect(result).to.deep.equal([3])
+    })
+
   })
 
 })
