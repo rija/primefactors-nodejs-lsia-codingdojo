@@ -14,7 +14,7 @@ example:
 ```
 For a prime factor `p` of `n`, the multiplicity of `p` is the largest exponent `a` for which `p^a` divides n exactly.
 
-## Problem to solve
+## Problem to solve (Part 1)
 
 Write a program that returns the list of prime factors for all positive integers from 1 to 100.
 
@@ -31,7 +31,18 @@ Example:
 
 Discuss the performance of the implementation.
 
+## Problem to solve (Part 2)
 
+sWrite a program that returns the list of prime factors and their multiplicities for all positive integers from 1 to 1000.
+Example:
+
+```
+1 -> []
+5 -> [ [5,1] ]
+8 -> [ [2,3] ]
+9 -> [ [3,2] ]
+360 -> [ [2,3], [3,2] , [5,1] ] 
+```
 
 ## Running the kata
 
