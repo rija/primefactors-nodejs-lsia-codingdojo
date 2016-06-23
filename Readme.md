@@ -24,7 +24,7 @@ Discuss the performance of the implementation.
 ## Running the kata
 
 ```
-$ git clone primefactors-nodejs-lsia-codingdojo
+$ git clone https://github.com/rija/primefactors-nodejs-lsia-codingdojo
 $ cd primefactors-nodejs-lsia-codingdojo
 $ npm install
 $ npm test
