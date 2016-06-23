@@ -14,6 +14,18 @@ example:
 ```
 For a prime factor `p` of `n`, the multiplicity of `p` is the largest exponent `a` for which `p^a` divides n exactly.
 
-## TODO
+## Problem to solve
 
 Write a program that returns the list of prime factors for all positive integers from 1 to 100.
+
+Discuss the performance of the implementation.
+
+
+## Running the kata
+
+```
+$ git clone primefactors-nodejs-lsia-codingdojo
+$ cd primefactors-nodejs-lsia-codingdojo
+$ npm install
+$ npm test
+```
