@@ -26,6 +26,12 @@ describe ('factorisation program', () => {
       expect(result).to.deep.equal([3])
     })
 
+    it ('should return [2,2] if passed 4', () => {
+      var result = primefactors.for_number(4)
+      expect(result).to.deep.equal([2,2])
+    })
+
+
   })
 
 })
