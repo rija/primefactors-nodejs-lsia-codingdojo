@@ -18,7 +18,19 @@ For a prime factor `p` of `n`, the multiplicity of `p` is the largest exponent `
 
 Write a program that returns the list of prime factors for all positive integers from 1 to 100.
 
+Example:
+
+```
+1 -> []
+5 -> [5]
+8 -> [2, 2, 2]
+9 -> [3, 3]
+```
+
+### If time allows:
+
 Discuss the performance of the implementation.
+
 
 
 ## Running the kata
