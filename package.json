@@ -1,0 +1,15 @@
+{
+  "name": "primefactors-nodejs-lsia-codingdojo",
+  "version": "1.0.0",
+  "description": "TDD kata for resolving the prime factorization of a positive integer",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -w"
+  },
+  "author": "Rija Menage",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "2.5.3"
+  }
+}
